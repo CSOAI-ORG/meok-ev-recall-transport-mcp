@@ -55,7 +55,7 @@ pip install meok-ev-recall-transport-mcp
 - **Pro** — £249/mo (DGSA dashboard + multi-user)
 - **Fleet** — £999/mo (50+ trucks, audit-export, SLA)
 
-[Subscribe Pro → £79/mo](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £79/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis
 
