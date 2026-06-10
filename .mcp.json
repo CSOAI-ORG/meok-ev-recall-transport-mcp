@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-ev-recall-transport-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-ev-recall-transport-mcp"
+      ]
+    }
+  }
+}
