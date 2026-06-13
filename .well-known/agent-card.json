@@ -1,0 +1,160 @@
+{
+  "name": "Meok Ev Recall Transport Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-ev-recall-transport-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "EV-recall transport compliance — ADR Class 9 (UN3480/3481/3536/3556/3557/3558), DGSA workflow, thermal-runaway routing, OEM recall protocols. For UK car transporters under ADR 2025 + ZEV Mandate. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "classify_ev_transport_risk",
+      "name": "Classify Ev Transport Risk",
+      "description": "Classify Ev Transport Risk — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_adr_class9_documentation",
+      "name": "Generate Adr Class9 Documentation",
+      "description": "Generate Adr Class9 Documentation — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_driver_adr_endorsement",
+      "name": "Check Driver Adr Endorsement",
+      "description": "Check Driver Adr Endorsement — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_vehicle_fire_suppression",
+      "name": "Validate Vehicle Fire Suppression",
+      "description": "Validate Vehicle Fire Suppression — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_orange_plate_placarding",
+      "name": "Check Orange Plate Placarding",
+      "description": "Check Orange Plate Placarding — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "route_thermal_runaway_risk",
+      "name": "Route Thermal Runaway Risk",
+      "description": "Route Thermal Runaway Risk — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "log_incident_to_dgsa",
+      "name": "Log Incident To Dgsa",
+      "description": "Log Incident To Dgsa — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_oem_recall_compliance",
+      "name": "Audit Oem Recall Compliance",
+      "description": "Audit Oem Recall Compliance — a tool of the meok-ev-recall-transport-mcp MCP.",
+      "tags": [
+        "compliance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-ev-recall-transport-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
