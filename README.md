@@ -48,14 +48,11 @@ pip install meok-ev-recall-transport-mcp
 | `log_incident_to_dgsa` | RIDDOR + DGSA + HSE notification routing. |
 | `audit_oem_recall_compliance` | OEM-specific protocols: Tesla, JLR, MG SAIC, Stellantis, BYD. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £79/mo (signed attestations + email support)
-- **Pro** — £249/mo (DGSA dashboard + multi-user)
-- **Fleet** — £999/mo (50+ trucks, audit-export, SLA)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → £79/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
